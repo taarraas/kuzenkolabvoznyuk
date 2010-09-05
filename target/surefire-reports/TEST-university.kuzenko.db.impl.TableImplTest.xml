@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.019" errors="7" skipped="0" tests="7" name="university.kuzenko.db.impl.TableImplTest">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\taras\.m2\repository"/>
+    <property name="env.VS90COMNTOOLS" value="C:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_20\jre\classes"/>
+    <property name="env.COMPUTERNAME" value="TARAS-NOTEBOOK"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.version" value="1.6.0_20-b02"/>
+    <property name="env.HOMEPATH" value="\Users\taras"/>
+    <property name="user.name" value="taras"/>
+    <property name="env.VSINSTALLDIR" value="c:\Program Files\Microsoft Visual Studio 9.0\"/>
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled"/>
+    <property name="user.language" value="ru"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_20\jre\bin"/>
+    <property name="java.version" value="1.6.0_20"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 23 Stepping 10, GenuineIntel"/>
+    <property name="env.OnlineServices" value="Online Services"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="env.TEMP" value="C:\Users\taras\AppData\Local\Temp"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|taras-notebook"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_20\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="env.FrameworkDir" value="c:\Windows\Microsoft.NET\Framework\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="RU"/>
+    <property name="jna.boot.library.path" value="C:\Users\taras\.netbeans\6.9\var\cache\jna"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_20\jre"/>
+    <property name="env.PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="env.APPDATA" value="C:\Users\taras\AppData\Roaming"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="env.ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="os.version" value="6.1"/>
+    <property name="netbeans.system_http_proxy" value="DIRECT"/>
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|taras-notebook"/>
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="env.ATISTREAMSDKROOT" value="C:\Program Files\ATI Stream\"/>
+    <property name="java.vm.version" value="16.3-b01"/>
+    <property name="env.ATISTREAMSDKSAMPLESROOT" value="C:\Users\taras\Documents\ATI Stream\"/>
+    <property name="env.USERPROFILE" value="C:\Users\taras"/>
+    <property name="user.variant" value=""/>
+    <property name="env.EMC_AUTOPLAY" value="c:\Program Files\Common Files\Roxio Shared\"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env.TMP" value="C:\Users\taras\AppData\Local\Temp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="useJavaUtilZip" value="true"/>
+    <property name="env.Framework35Version" value="v3.5"/>
+    <property name="user.home" value="C:\Users\taras"/>
+    <property name="env.ProgramData" value="C:\ProgramData"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.RoxioCentral" value="c:\Program Files\Common Files\Roxio Shared\10.0\Roxio Central36\"/>
+    <property name="apple.laf.useScreenMenuBar" value="true"/>
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="java.library.path" value="C:\Program Files\NetBeans 6.9.1\bin;.;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\taras\Documents\ATI Stream\bin\x86;C:\Program Files\ATI Stream\bin\x86;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Common Files\Roxio Shared\DLLShared\;c:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_20\;C:\cygwin\bin;C:\Program Files\CMake 2.8\bin;C:\Program Files\doxygen\bin;C:\Program Files\ATI Stream\Tools\Stream KernelAnalyzer 1.6\"/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 6.9.1\platform\lib\boot.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\org-openide-modules.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\org-openide-util-lookup.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\org-openide-util.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\boot_ja.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\boot_pt_BR.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\boot_zh_CN.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files\NetBeans 6.9.1\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.6.0_20\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_20\lib\tools.jar"/>
+    <property name="env.PCBRAND" value="s"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.6.0_20"/>
+    <property name="env.windir" value="C:\windows"/>
+    <property name="env.LOGONSERVER" value="\\TARAS-NOTEBOOK"/>
+    <property name="org.openide.specification.version" value="6.2"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ProgramFiles" value="C:\Program Files"/>
+    <property name="surefire.test.class.path" value="C:\Users\taras\Documents\NetBeansProjects\kuzenko\target\test-classes;C:\Users\taras\Documents\NetBeansProjects\kuzenko\target\classes;C:\Users\taras\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.io.tmpdir" value="C:\Users\taras\AppData\Local\Temp\"/>
+    <property name="env.PROCESSOR_REVISION" value="170a"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="env.SystemRoot" value="C:\windows"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_20\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\taras\Documents\NetBeansProjects\kuzenko"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\taras\AppData\Local"/>
+    <property name="line.separator" value="
+"/>
+    <property name="apple.awt.graphics.UseQuartz" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="env.Path" value="C:\Users\taras\Documents\ATI Stream\bin\x86;C:\Program Files\ATI Stream\bin\x86;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Common Files\Roxio Shared\DLLShared\;c:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_20\;C:\cygwin\bin;C:\Program Files\CMake 2.8\bin;C:\Program Files\doxygen\bin;C:\Program Files\ATI Stream\Tools\Stream KernelAnalyzer 1.6\"/>
+    <property name="basedir" value="C:\Users\taras\Documents\NetBeansProjects\kuzenko"/>
+    <property name="maven.mode.standalone" value="true"/>
+    <property name="env.USERNAME" value="taras"/>
+    <property name="env.VCINSTALLDIR" value="c:\Program Files\Microsoft Visual Studio 9.0\VC\"/>
+    <property name="env.SystemDrive" value="C:"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="netbeans.execution" value="true"/>
+    <property name="env.USERDOMAIN" value="TARAS-NOTEBOOK"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="env.Platform" value="BNB"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+  </properties>
+  <testcase time="0.004" classname="university.kuzenko.db.impl.TableImplTest" name="testGetName">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetName(TableImplTest.java:39)
+</error>
+    <system-out>getName
+</system-out>
+  </testcase>
+  <testcase time="0" classname="university.kuzenko.db.impl.TableImplTest" name="testGetHeader">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetHeader(TableImplTest.java:52)
+</error>
+    <system-out>getHeader
+</system-out>
+  </testcase>
+  <testcase time="0" classname="university.kuzenko.db.impl.TableImplTest" name="testGetRow">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetRow(TableImplTest.java:66)
+</error>
+    <system-out>getRow
+</system-out>
+  </testcase>
+  <testcase time="0" classname="university.kuzenko.db.impl.TableImplTest" name="testGetRows">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetRows(TableImplTest.java:81)
+</error>
+    <system-out>getRows
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="university.kuzenko.db.impl.TableImplTest" name="testSetRow">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testSetRow(TableImplTest.java:95)
+</error>
+    <system-out>setRow
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="university.kuzenko.db.impl.TableImplTest" name="testRemoveRow">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testRemoveRow(TableImplTest.java:107)
+</error>
+    <system-out>removeRow
+</system-out>
+  </testcase>
+  <testcase time="0" classname="university.kuzenko.db.impl.TableImplTest" name="testAddRow">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testAddRow(TableImplTest.java:119)
+</error>
+    <system-out>addRow
+</system-out>
+  </testcase>
+</testsuite>

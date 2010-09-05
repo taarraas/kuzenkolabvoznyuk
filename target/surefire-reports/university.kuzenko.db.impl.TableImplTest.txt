@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: university.kuzenko.db.impl.TableImplTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE!
+testGetName(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetName(TableImplTest.java:39)
+
+testGetHeader(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetHeader(TableImplTest.java:52)
+
+testGetRow(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetRow(TableImplTest.java:66)
+
+testGetRows(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testGetRows(TableImplTest.java:81)
+
+testSetRow(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testSetRow(TableImplTest.java:95)
+
+testRemoveRow(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testRemoveRow(TableImplTest.java:107)
+
+testAddRow(university.kuzenko.db.impl.TableImplTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at university.kuzenko.db.impl.TableImplTest.testAddRow(TableImplTest.java:119)
+
